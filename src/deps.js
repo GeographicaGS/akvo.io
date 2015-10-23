@@ -2,7 +2,7 @@ var deps = {};
 
 deps.templateFolder = 'js/template';
 
-deps.JS = [];
+deps.JS = ['js/main.js'];
 
 
 

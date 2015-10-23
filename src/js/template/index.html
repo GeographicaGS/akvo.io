@@ -1,48 +1,287 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <meta name='description' content='Akvo'>
-    <meta name='author' content='Akvo'>
-
+    <meta charset="UTF-8">
     <title>Akvo</title>
 
-    <link rel='stylesheet' href='/css/styles.min.css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
-              
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src='https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js'></script>
-      <script src='https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js'></script>
-    <![endif]-->
-  </head>
-<body>
+    <meta name="author" content="Geographica">
+    <meta name="description" content="In Geographica we design and develop products based on GIS and Data Science.">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="og:url" content="http://www.geographica.gs/en">
+    <meta name="og:title" content="Geographica">
+    <meta name="twitter:title" content="Geographica">
+    <meta name="og:description" content="In Geographica we design and develop products based on GIS and Data Science.">
+    <meta name="twitter:description" content="In Geographica we design and develop products based on GIS and Data Science.">
+    <meta name="og:image" content="/images/GW_avatar_github.png">
+    <meta name="twitter:image" content="/images/GW_avatar_github.png">
+    <meta name="twitter:site" content="@geographica_gs">
+    <meta name="twitter:creator" content="@geographica_gs">
+    <meta name="twitter:domain" content="Geographica">
 
-    <header class="masthead hide">
-        <h1><a href="/" class="logo">Serranía Suroeste Sevillana, Grupo de Desarrollo Rural</a></h1>
-            <nav>
-                <ul class="main-nav">
-                    <ul>
-                        <a class="menu" href="#" jslink>
-                            <li menu="1" class="active"><span>Expedientes</span> </li></a>
-                        <a class="menu" href="indicators" jslink>
-                            <li menu="2"> <span>Indicadores</span></li>
-                        </a>
-                        <li>
-                            <span>Administración</span><span class="addto-btn"></span>
-                        </li>
-                    </ul>
+    <link rel='stylesheet' href='/css/styles.min.css'>
+
+</head>
+<body>
+    <header class="main-header">
+        <div class="container">
+            <h1 class="logo"><a href="/"><img src="/img/akvo_logo_sm.svg" alt="Akvo"></a></h1>
+            
+            <nav class="main-nav">
+            <h2 class="page-title"><lang>Que es AKVO?</lang> <span class="ico-dropdown"></span></h2>
+                <ul >
+                    <li><a href="#whatis"><lang>Que es AKVO?</lang></a></li>
+                    <li><a href="#benefits"><lang>Beneficios</lang></a></li>
+                    <li><a href="#features"><lang>Características</lang></a></li>
+                    <li><a href="#team"><lang>Equipo</lang></a></li>
+                    <li><a href="#contact"><lang>Contactanos</lang></a></li>
                 </ul>
             </nav>
-            <div class="login-container">
-                <span class="login-txt">username</span>
-                <span class="btn-login"></span>
-            </a><!-- login-container -->
+        </div>
     </header>
-    
-    <main><lang>HOLA MUNDO</lang></main>
 
+    <main class="main">
+        <section id="intro">
+            <div class="container">
+
+                <div class="wrapper">
+                    <div class="symbol-wrapper">
+                        <img src="/img/akvo_symbol.svg" alt="Akvo symbol">
+                    </div>
+                    <h3 class="slogan"><lang>Faster, cheaper, simpler.</lang> </h3>
+                    <h2><lang>Akvo es la plataforma SAAS para la gestión de activos y comercial en Empresas de Agua.</lang></h2>
+                    <span class="sep"></span>
+                    <span class="btn scroll-down"></span>
+                </div>
+                <img class="intro-logo"src="/img/akvo_logo_big.svg" alt="">
+            </div>
+        </section>
+        
+        <section id="whatis">
+            <div class="container">
+                <div class="row">
+                    <p class="intro">
+                        <lang><strong>Akvo</strong> es una plataforma que combina, muestra y analiza información geográfica con información comercial.</lang>
+                    </p>
+                </div>
+                <div class="row connection-ill">
+                    <div class="col-sm-12 col-md-4 info info-geo">
+                        <h3><lang>Información geográfica</lang></h3>
+                        <p><lang>redes de agua · callejeros</lang></p>
+                    </div>
+                    <div class="col-sm-12 col-md-4 info akvo-connector">
+                        <div class="symbol-wrapper">
+                            <img src="/img/akvo_symbol.svg" alt="Akvo symbol">
+
+                        </div>
+                        <span class="line-connector"></span>
+                    </div>
+                    <div class="col-sm-12 col-md-4 info info-com">
+                        <h3><lang>Información commercial</lang></h3>
+                        <p><lang>abonados · facturacion</lang></p>
+                    </div>
+                </div><!-- row -->
+                <div class="row">
+                    <div class="alerts">
+                        <h3><lang>Sistema integrado de notificaciones y recomendaciones</lang></h3> 
+                        <p><lang>destinado a Tècnicos y Gestores</lang></p>
+                    </div>
+                </div><!-- row -->
+            </div><!-- container -->
+        </section>
+        
+        <section id="benefits">
+            <div class="container">
+                <div class="wrapper">
+                    <div class="benefit-item productivity">
+                        <span class="plus">+</span>
+                        <h3><lang>Productividad</lang></h3>
+                        <p><lang>Cálculos más rápidos. Algoritmos propios más potentes</lang></p>
+                    </div>
+                    <div class="benefit-item costs">
+                        <span class="minus">-</span>
+                        <h3><lang>Costes</lang></h3>
+                        <p><lang>Baja notablemente los elevados costes de las soluciones GIS.</lang></p>
+                    </div>
+                    <div class="benefit-item adaptation">
+                        <span class="plus">+</span>
+                        <h3><lang>
+                            Adaptación <small>a nuevas leyes</small>
+                        </lang></h3>
+                        <p><lang>Estándares y protocolos nacionales e internacionales</lang> </p>
+                    </div>
+                    <div class="benefit-item visualization">
+                        <span class="plus">+</span>
+                        <h3><lang>Visualización <small>y Gestión de la información</lang></small></h3>
+                        <p><lang>Tecnología de vanguardia utilizando <a href="https://cartodb.com/">CartoDB</a>, <a href="http://www.qgis.org/en/site/">QGIS</a>,</a href="http://d3js.org/">D3JS,</a> más...  </lang></p>
+                    </div>
+                </div><!-- wrapper -->
+            </div><!-- container -->
+        </section>
+        
+        <section id="features">
+            <div class="container">
+                <ul class="features-list">
+                    <li class="data-interchange">
+                        <h3><lang>Intercambio de datos versátil</lang></h3>
+                    <p><lang>Combinación entre la información GIS con la comercial y el Big Data.</lang></p>
+                    </li>
+                    <li class="graphics">
+                        <h3><lang>Gráfica exhaustiva</lang></h3>
+                        <p><lang>Visualización gráfica de los datos e indicadores comerciales.</lang></p>
+                    </li>
+                    <li class="realtime-analysis">
+                        <h3><lang>Real-time análisis</lang></h3>
+                        <p><lang>Análisis en tiempo real de más datos (vertidos, fugas…).</lang></p>
+                    </li>
+                    <li class="tools-analysis">
+                        <h3><lang>Herramientas de análisis</lang></h3>
+                        <p><lang>Mejor análisis del estado de las infraestructuras y previsión de inversiones futuras.</lang></p>
+                    </li>
+                    <li class="platforms">
+                        <h3><lang>Plataformas múltiples</lang></h3>
+                        <p><lang>Integración Escritorio–Web–Móvil</lang></p>
+                    </li>
+                    <li class="sharing">
+                        <h3><lang>Comparte datos</lang></h3>
+                        <p><lang>Compartir información entre toda la compañía.</lang></p>
+                    </li>   
+                </ul>
+            </div>
+        </section>
+        
+        <section id="team">
+        
+            <div class="container">
+                <div class="row hierarchy-top">
+                    <div class="team-dpt team-direction col-md-5">
+                        <h3><lang>Dirección</lang></h3>
+                        <ul class="team-members">
+                            <li>
+                                <div class="member-image">
+                                    <img src="/img/team/akvo_hector@2x.jpg" alt="">
+                                </div>
+                                <span class="member-role"><lang>CEO</lang></span>
+                                <span class="member-name">Héctor García</span>
+                                <span class="member-position"><lang>Geógrafo</lang></span>
+                            </li>
+                            <li>
+                                <div class="member-image">
+                                    <img src="/img/team/akvo_alberto@2x.jpg" alt="">
+                                </div>
+                                <span class="member-role"><lang>CTO</lang></span>
+                                <span class="member-name">Alberto Asuero</span>
+                                <span class="member-position"><lang>Ingeniero Informático</lang></span>
+                            </li>
+                        </ul>
+                    </div><!-- team-dpt -->
+                    
+                    <div class="team-dpt team-advisory-board col-md-7">
+                        <h3><lang>Advisory Board</lang></h3>
+                        <ul class="team-members">
+                            <li>
+                                <div class="member-image">
+                                    <img src="/img/team/akvo_hector@2x.jpg" alt="">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="member-image">
+                                    <img src="/img/team/akvo_miguel@2x.jpg" alt="">
+                                </div>
+                                <span class="member-name">Miguel Macías</span>
+                                <span class="member-position"><lang>Economista</lang></span>
+                            </li>
+                            <li>
+                                <div class="member-image">
+                                    <img src="/img/team/akvo_juanpe@2x.jpg" alt="">
+                                </div>
+                                <span class="member-name">Juan Pedro Pérez</span>
+                                <span class="member-position"><lang>Phd Universidad de Sevilla</lang></span>
+                            </li>
+                        </ul>
+                    </div><!-- team-dpt -->
+                
+                </div><!-- top-hierarchy -->
+                
+                <div class="row hierarchy-btm">
+                        
+                    <div class="team-dpt team-development col-md-6">
+                        <h3>Desarrollo</h3>
+                        <ul class="team-members">
+                            <li>
+                                <div class="member-image">
+                                    <img src="/img/team/akvo_javier@2x.jpg" alt="">
+                                </div>
+                                <span class="member-name">Javier Ara<lang></lang>gón</span>
+                                <span class="member-position"><lang>Ingeniero Informático</lang></span>
+                            </li>
+                            <li>
+                                <div class="member-image">
+                                    <img src="/img/team/akvo_cayetano@2x.jpg" alt="">
+                                </div>
+                                <span class="member-name">Cayetano Benavent</span>
+                                <span class="member-position"><lang>Geógrafo / Máster en GIS</lang></span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="team-dpt team-design col-md-6">
+                        <h3><lang>Diseño / UX–UI</lang></h3>
+                        <ul class="team-members">
+                            <li>
+                                <div class="member-image">
+                                    <img src="/img/team/akvo_josegil@2x.jpg" alt="">
+                                </div>
+                                <span class="member-name">Jose Gil</span>
+                                <span class="member-position"><lang>Diseñador Senior</lang></span>
+                            </li>
+                            <li>
+                                <div class="member-image">
+                                    <img src="/img/team/akvo_davide@2x.jpg" alt="">
+                                </div>
+                                <span class="member-name">Davide Senatra</span>
+                                <span class="member-position"><lang>Diseñador</lang></span>
+                            </li>
+                    
+                        </ul>
+                    </div>
+                </div><!-- hierarchy bot -->
+            </div><!-- container -->
+        </section><!-- TEAM -->
+        
+        
+        <section id="contact">
+            <lang></lang>
+           
+                <div class="contact-box contact-email">
+                   <div class="container">
+                        <h3 class="cta"><lang>Envianos un email</lang></h3>
+                       <p><lang>
+                           Manténgase actualizado sobre todas las novedades relativas a <strong>akvo</strong>
+                       </lang></p>
+                    
+                       <div class="btn-contact"><a href="mailto:hello@avko.io">hello@avko.io</a></div>
+                   </div>
+                </div>
+                
+                <div class="contact-box contact-webinar">
+                  <div class="container">
+                        <h3 class="cta"><lang>Únete al webinar</lang></h3>
+                        <p><lang>Hablaremos de las noticias más reciente sobre tecnología GIS </lang>
+                            <small><lang>Fri, 16 October, 12pm – 3pm</lang></small>
+                        </p> 
+
+                      <div class="btn-contact"><a href="">Apuntate</a></div>
+                  </div>
+                </div>
+      
+        
+        </section>
+    </main>
+
+    
+<script type='text/javascript' src="js/myscript.js" ></script>  
 </body>
 </html>
